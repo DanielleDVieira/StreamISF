@@ -4,6 +4,9 @@ This repository contains a tool for segmenting streaming video.
 ## Streaming Graph-based Supervoxel Computation Based on Dynamic Iterative Spanning Forest
 
 Streaming video segmentation decreases processing time by creating supervoxels taking into account small parts of the video instead of using all video content. Thanks to the good performance of the Iterative Spanning Forest to compute Supervoxels (ISF2SVX) based on Dynamic Iterative Spanning Forest (DISF) for video segmentation framework we propose a new graph-based streaming video segmentation method for supervoxel generation by using dynamic iterative spanning forest framework, so-called StreamISF, based on a pipeline composed of six stages: 
+
+<img src="https://github.com/DanielleDVieira/StreamISF/blob/main/imagesReadme/stream-methodology.jpeg" width=800>
+
 - (1) formation of the graph for each block of the video;
 - (2) seed oversampling;
 - (3) IFT-based supervoxel design;
@@ -12,6 +15,12 @@ Streaming video segmentation decreases processing time by creating supervoxels t
 - (6) creation of the segmented video.
 
 The difference in our proposed method is that it is unnecessary to have all the video in memory and the only previous information necessary to segment a block is the intersection frame between the blocks.
+
+
+<img src="https://github.com/DanielleDVieira/StreamISF/blob/main/imagesReadme/exampleVideoSegmentations.png" width=800>
+
+Example of video segmentations for a video extracted of the GATech. The original frames are illustrated in the first row. We illustrate examples of the proposed method changing the seed sampling. We illustrate results for (a) 10 and (b) 500 supervoxels, considering ISF2SVX-GRID-DYN and StreamISF with k = 30% and allowing tree merges (second and third rows). Each resulting region is colored by its mean color.
+It is possible to observe in the figure above that in the first segmented blocks, the skater’s dress is a region that is not in the ISF2SVX result, and even after the dress does not appear in the last blocks due to tree mergers during the propagation of the labels of the intersection trees, the sign on the wall is more detailed in our proposed method in all the images, both for 10 supervoxels and for 500 supervoxels.
 
 ### Languages supported
 
