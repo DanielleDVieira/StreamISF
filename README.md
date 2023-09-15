@@ -36,9 +36,9 @@ The following tools are required in order to start the installation.
 - To compile GFT:
 
   1. Copy the "gft" files to a folder on your computer.
-  2. Create an environment variable GFT_DIR and place it in .bashrc, on my machine I put it:
+  2. Create an environment variable GFT_DIR and place it in .bashrc:
    
-      `export export GFT_DIR=/home/danielle/gft`
+      `export export GFT_DIR=/home/user/gft`
   3. Go to the "gft" folder and do:
    
       `make clean`
