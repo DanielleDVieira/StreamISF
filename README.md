@@ -38,7 +38,7 @@ The following tools are required in order to start the installation.
   1. Copy the "gft" files to a folder on your computer.
   2. Create an environment variable GFT_DIR and place it in .bashrc:
    
-      `export export GFT_DIR=/home/user/gft`
+      `export GFT_DIR=/home/user/gft`
   3. Go to the "gft" folder and do:
    
       `make clean`
