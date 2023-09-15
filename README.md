@@ -76,3 +76,17 @@ In the make file itself there is an example of how to run the main program strea
 9. `1` do tree merges, 1 if yes, 0 if no.
 10. `50` rate to stop supervoxel decrement. Ex.: 10, will be 0.10 of the number of supervoxels.
 
+## Cite
+If this work was useful for your research, please cite our paper:
+
+```
+@InProceedings{vieira2023streamISF,
+  title={Streaming Graph-based Supervoxel Computation Based on Dynamic Iterative Spanning Forest},
+  author={Danielle Vieira and Isabela Borlido Barcelos, Bel{\'e}m, Felipe and Falc{\~a}o, Alexandre Xavier and do Patroc{\'\i}nio, Zenilton KG and Guimar{\~a}es, Silvio Jamil F},
+  booktitle={},
+  publisher={},
+  pages={},
+  year={2023},
+  organization={}
+}
+```
