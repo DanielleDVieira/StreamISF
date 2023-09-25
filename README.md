@@ -82,11 +82,10 @@ If this work was useful for your research, please cite our paper:
 ```
 @InProceedings{vieira2023streamISF,
   title={Streaming Graph-based Supervoxel Computation Based on Dynamic Iterative Spanning Forest},
-  author={Danielle Vieira and Isabela Borlido Barcelos, Bel{\'e}m, Felipe and Falc{\~a}o, Alexandre Xavier and do Patroc{\'\i}nio, Zenilton KG and Guimar{\~a}es, Silvio Jamil F},
-  booktitle={},
-  publisher={},
+  author={Vieira, Danielle Dias and Barcelos, Isabela Borlido, Bel{\'e}m, Felipe and Falc{\~a}o, Alexandre Xavier and do Patroc{\'\i}nio, Zenilton KG and Guimar{\~a}es, Silvio Jamil F},
+  booktitle={26th Iberoamerican Congress on Pattern Recognition (CIARP)},
+  publisher={Springer International Publishing},
   pages={},
-  year={2023},
-  organization={}
+  year={2023}
 }
 ```
